@@ -1,0 +1,899 @@
+:root {
+  --colorlib-com-roboto-bold-11-upper-font-family: "Roboto-Bold", Helvetica;
+  --colorlib-com-roboto-bold-11-upper-font-size: 11px;
+  --colorlib-com-roboto-bold-11-upper-font-style: normal;
+  --colorlib-com-roboto-bold-11-upper-font-weight: 700;
+  --colorlib-com-roboto-bold-11-upper-letter-spacing: 0.5px;
+  --colorlib-com-roboto-bold-11-upper-line-height: 13.199999809265137px;
+  --colorlib-com-roboto-bold-13-font-family: "Roboto-Bold", Helvetica;
+  --colorlib-com-roboto-bold-13-font-size: 13px;
+  --colorlib-com-roboto-bold-13-font-style: normal;
+  --colorlib-com-roboto-bold-13-font-weight: 700;
+  --colorlib-com-roboto-bold-13-letter-spacing: 0px;
+  --colorlib-com-roboto-bold-13-line-height: 19.1200008392334px;
+  --colorlib-com-roboto-bold-26-26-font-family: "Roboto-Bold", Helvetica;
+  --colorlib-com-roboto-bold-26-26-font-size: 26.26171875px;
+  --colorlib-com-roboto-bold-26-26-font-style: normal;
+  --colorlib-com-roboto-bold-26-26-font-weight: 700;
+  --colorlib-com-roboto-bold-26-26-letter-spacing: 0px;
+  --colorlib-com-roboto-bold-26-26-line-height: 27px;
+  --colorlib-com-roboto-bold-36-81-font-family: "Roboto-Bold", Helvetica;
+  --colorlib-com-roboto-bold-36-81-font-size: 36.8125px;
+  --colorlib-com-roboto-bold-36-81-font-style: normal;
+  --colorlib-com-roboto-bold-36-81-font-weight: 700;
+  --colorlib-com-roboto-bold-36-81-letter-spacing: 0px;
+  --colorlib-com-roboto-bold-36-81-line-height: 63.029998779296875px;
+  --colorlib-com-roboto-light-14-font-family: "Roboto-Light", Helvetica;
+  --colorlib-com-roboto-light-14-font-size: 14px;
+  --colorlib-com-roboto-light-14-font-style: normal;
+  --colorlib-com-roboto-light-14-font-weight: 300;
+  --colorlib-com-roboto-light-14-letter-spacing: 0px;
+  --colorlib-com-roboto-light-14-line-height: 16.799999237060547px;
+  --colorlib-com-roboto-medium-12-7-font-family: "Roboto-Medium", Helvetica;
+  --colorlib-com-roboto-medium-12-7-font-size: 12.6953125px;
+  --colorlib-com-roboto-medium-12-7-font-style: normal;
+  --colorlib-com-roboto-medium-12-7-font-weight: 500;
+  --colorlib-com-roboto-medium-12-7-letter-spacing: 0px;
+  --colorlib-com-roboto-medium-12-7-line-height: 19.1200008392334px;
+  --colorlib-com-roboto-medium-12-8-font-family: "Roboto-Medium", Helvetica;
+  --colorlib-com-roboto-medium-12-8-font-size: 12.796875px;
+  --colorlib-com-roboto-medium-12-8-font-style: normal;
+  --colorlib-com-roboto-medium-12-8-font-weight: 500;
+  --colorlib-com-roboto-medium-12-8-letter-spacing: 0px;
+  --colorlib-com-roboto-medium-12-8-line-height: 19.1200008392334px;
+  --colorlib-com-roboto-medium-12-9-font-family: "Roboto-Medium", Helvetica;
+  --colorlib-com-roboto-medium-12-9-font-size: 12.8984375px;
+  --colorlib-com-roboto-medium-12-9-font-style: normal;
+  --colorlib-com-roboto-medium-12-9-font-weight: 500;
+  --colorlib-com-roboto-medium-12-9-letter-spacing: 0px;
+  --colorlib-com-roboto-medium-12-9-line-height: 19.1200008392334px;
+  --colorlib-com-roboto-medium-12-font-family: "Roboto-Medium", Helvetica;
+  --colorlib-com-roboto-medium-12-font-size: 12px;
+  --colorlib-com-roboto-medium-12-font-style: normal;
+  --colorlib-com-roboto-medium-12-font-weight: 500;
+  --colorlib-com-roboto-medium-12-letter-spacing: 0px;
+  --colorlib-com-roboto-medium-12-line-height: 17.649999618530273px;
+  --colorlib-com-roboto-medium-13-font-family: "Roboto-Medium", Helvetica;
+  --colorlib-com-roboto-medium-13-font-size: 13px;
+  --colorlib-com-roboto-medium-13-font-style: normal;
+  --colorlib-com-roboto-medium-13-font-weight: 500;
+  --colorlib-com-roboto-medium-13-letter-spacing: 0px;
+  --colorlib-com-roboto-medium-13-line-height: 19.1200008392334px;
+  --colorlib-com-roboto-medium-15-63-font-family: "Roboto-Medium", Helvetica;
+  --colorlib-com-roboto-medium-15-63-font-size: 15.625px;
+  --colorlib-com-roboto-medium-15-63-font-style: normal;
+  --colorlib-com-roboto-medium-15-63-font-weight: 500;
+  --colorlib-com-roboto-medium-15-63-letter-spacing: 0px;
+  --colorlib-com-roboto-medium-15-63-line-height: 19.200000762939453px;
+  --colorlib-com-roboto-medium-16-font-family: "Roboto-Medium", Helvetica;
+  --colorlib-com-roboto-medium-16-font-size: 16px;
+  --colorlib-com-roboto-medium-16-font-style: normal;
+  --colorlib-com-roboto-medium-16-font-weight: 500;
+  --colorlib-com-roboto-medium-16-letter-spacing: 0px;
+  --colorlib-com-roboto-medium-16-line-height: 19.200000762939453px;
+  --colorlib-com-roboto-medium-28-font-family: "Roboto-Medium", Helvetica;
+  --colorlib-com-roboto-medium-28-font-size: 28px;
+  --colorlib-com-roboto-medium-28-font-style: normal;
+  --colorlib-com-roboto-medium-28-font-weight: 500;
+  --colorlib-com-roboto-medium-28-letter-spacing: 0px;
+  --colorlib-com-roboto-medium-28-line-height: 33.599998474121094px;
+  --colorlib-com-roboto-regular-10-4-font-family: "Roboto-Regular", Helvetica;
+  --colorlib-com-roboto-regular-10-4-font-size: 10.399999618530273px;
+  --colorlib-com-roboto-regular-10-4-font-style: normal;
+  --colorlib-com-roboto-regular-10-4-font-weight: 400;
+  --colorlib-com-roboto-regular-10-4-letter-spacing: 0px;
+  --colorlib-com-roboto-regular-10-4-line-height: 15.300000190734863px;
+  --colorlib-com-roboto-regular-10-8-font-family: "Roboto-Regular", Helvetica;
+  --colorlib-com-roboto-regular-10-8-font-size: 10.800000190734863px;
+  --colorlib-com-roboto-regular-10-8-font-style: normal;
+  --colorlib-com-roboto-regular-10-8-font-weight: 400;
+  --colorlib-com-roboto-regular-10-8-letter-spacing: 0px;
+  --colorlib-com-roboto-regular-10-8-line-height: 15.9399995803833px;
+  --colorlib-com-roboto-regular-10-font-family: "Roboto-Regular", Helvetica;
+  --colorlib-com-roboto-regular-10-font-size: 10px;
+  --colorlib-com-roboto-regular-10-font-style: normal;
+  --colorlib-com-roboto-regular-10-font-weight: 400;
+  --colorlib-com-roboto-regular-10-letter-spacing: 0px;
+  --colorlib-com-roboto-regular-10-line-height: 13px;
+  --colorlib-com-roboto-regular-11-81-font-family: "Roboto-Regular", Helvetica;
+  --colorlib-com-roboto-regular-11-81-font-size: 11.8125px;
+  --colorlib-com-roboto-regular-11-81-font-style: normal;
+  --colorlib-com-roboto-regular-11-81-font-weight: 400;
+  --colorlib-com-roboto-regular-11-81-letter-spacing: 0px;
+  --colorlib-com-roboto-regular-11-81-line-height: 17.649999618530273px;
+  --colorlib-com-roboto-regular-12-8-font-family: "Roboto-Regular", Helvetica;
+  --colorlib-com-roboto-regular-12-8-font-size: 12.796875px;
+  --colorlib-com-roboto-regular-12-8-font-style: normal;
+  --colorlib-com-roboto-regular-12-8-font-weight: 400;
+  --colorlib-com-roboto-regular-12-8-letter-spacing: 0px;
+  --colorlib-com-roboto-regular-12-8-line-height: 19.1200008392334px;
+  --colorlib-com-roboto-regular-13-font-family: "Roboto-Regular", Helvetica;
+  --colorlib-com-roboto-regular-13-font-size: 13px;
+  --colorlib-com-roboto-regular-13-font-style: normal;
+  --colorlib-com-roboto-regular-13-font-weight: 400;
+  --colorlib-com-roboto-regular-13-letter-spacing: 0px;
+  --colorlib-com-roboto-regular-13-line-height: 30px;
+  --colorlib-com-roboto-regular-14-17-font-family: "Roboto-Regular", Helvetica;
+  --colorlib-com-roboto-regular-14-17-font-size: 14.174999237060547px;
+  --colorlib-com-roboto-regular-14-17-font-style: normal;
+  --colorlib-com-roboto-regular-14-17-font-weight: 400;
+  --colorlib-com-roboto-regular-14-17-letter-spacing: 0px;
+  --colorlib-com-roboto-regular-14-17-line-height: 17.280000686645508px;
+  --colorlib-com-roboto-regular-14-4-font-family: "Roboto-Regular", Helvetica;
+  --colorlib-com-roboto-regular-14-4-font-size: 14.399999618530273px;
+  --colorlib-com-roboto-regular-14-4-font-style: normal;
+  --colorlib-com-roboto-regular-14-4-font-weight: 400;
+  --colorlib-com-roboto-regular-14-4-letter-spacing: 0px;
+  --colorlib-com-roboto-regular-14-4-line-height: 17.280000686645508px;
+  --colorlib-com-roboto-regular-16-73-font-family: "Roboto-Regular", Helvetica;
+  --colorlib-com-roboto-regular-16-73-font-size: 16.734375px;
+  --colorlib-com-roboto-regular-16-73-font-style: normal;
+  --colorlib-com-roboto-regular-16-73-font-weight: 400;
+  --colorlib-com-roboto-regular-16-73-letter-spacing: 0px;
+  --colorlib-com-roboto-regular-16-73-line-height: 20.399999618530273px;
+  --colorlib-com-roboto-regular-16-87-font-family: "Roboto-Regular", Helvetica;
+  --colorlib-com-roboto-regular-16-87-font-size: 16.8671875px;
+  --colorlib-com-roboto-regular-16-87-font-style: normal;
+  --colorlib-com-roboto-regular-16-87-font-weight: 400;
+  --colorlib-com-roboto-regular-16-87-letter-spacing: 0px;
+  --colorlib-com-roboto-regular-16-87-line-height: 20.399999618530273px;
+  --colorlib-com-roboto-regular-17-72-font-family: "Roboto-Regular", Helvetica;
+  --colorlib-com-roboto-regular-17-72-font-size: 17.71875px;
+  --colorlib-com-roboto-regular-17-72-font-style: normal;
+  --colorlib-com-roboto-regular-17-72-font-weight: 400;
+  --colorlib-com-roboto-regular-17-72-letter-spacing: 0px;
+  --colorlib-com-roboto-regular-17-72-line-height: 21.600000381469727px;
+  --colorlib-com-roboto-regular-17-font-family: "Roboto-Regular", Helvetica;
+  --colorlib-com-roboto-regular-17-font-size: 17px;
+  --colorlib-com-roboto-regular-17-font-style: normal;
+  --colorlib-com-roboto-regular-17-font-weight: 400;
+  --colorlib-com-roboto-regular-17-letter-spacing: 0px;
+  --colorlib-com-roboto-regular-17-line-height: 20.399999618530273px;
+  --colorlib-com-roboto-regular-18-font-family: "Roboto-Regular", Helvetica;
+  --colorlib-com-roboto-regular-18-font-size: 18px;
+  --colorlib-com-roboto-regular-18-font-style: normal;
+  --colorlib-com-roboto-regular-18-font-weight: 400;
+  --colorlib-com-roboto-regular-18-letter-spacing: 0px;
+  --colorlib-com-roboto-regular-18-line-height: 21.600000381469727px;
+  --colorlib-com-roboto-regular-22-font-family: "Roboto-Regular", Helvetica;
+  --colorlib-com-roboto-regular-22-font-size: 22px;
+  --colorlib-com-roboto-regular-22-font-style: normal;
+  --colorlib-com-roboto-regular-22-font-weight: 400;
+  --colorlib-com-roboto-regular-22-letter-spacing: 0px;
+  --colorlib-com-roboto-regular-22-line-height: 59px;
+  --colorlib-com-roboto-regular-9-96-font-family: "Roboto-Regular", Helvetica;
+  --colorlib-com-roboto-regular-9-96-font-size: 9.956250190734863px;
+  --colorlib-com-roboto-regular-9-96-font-style: normal;
+  --colorlib-com-roboto-regular-9-96-font-weight: 400;
+  --colorlib-com-roboto-regular-9-96-letter-spacing: 0px;
+  --colorlib-com-roboto-regular-9-96-line-height: 15.9399995803833px;
+  --colorlibcomalto: rgba(224, 224, 224, 1);
+  --colorlibcomathens-gray: rgba(230, 233, 237, 1);
+  --colorlibcombig-stone: rgba(23, 45, 68, 1);
+  --colorlibcomcelery: rgba(150, 202, 89, 1);
+  --colorlibcomcurious-blue: rgba(52, 152, 219, 1);
+  --colorlibcomemperor: rgba(84, 84, 84, 1);
+  --colorlibcomfiord: rgba(66, 86, 104, 1);
+  --colorlibcomfrench-gray: rgba(197, 199, 203, 1);
+  --colorlibcomgallery: rgba(238, 238, 238, 1);
+  --colorlibcomgeyser: rgba(217, 222, 228, 1);
+  --colorlibcomheather: rgba(196, 207, 218, 1);
+  --colorlibcomlynch: rgba(115, 135, 156, 1);
+  --colorlibcommercury: rgba(231, 231, 231, 1);
+  --colorlibcommine-shaft: rgba(63, 63, 63, 1);
+  --colorlibcommountain-meadow: rgba(26, 187, 156, 1);
+  --colorlibcomnero: rgba(255, 255, 255, 1);
+  --colorlibcomnero-02: rgba(255, 255, 255, 0);
+  --colorlibcomnero-5: rgba(255, 255, 255, 0.05);
+  --colorlibcomnero-75: rgba(255, 255, 255, 0.75);
+  --colorlibcomnobel: rgba(186, 184, 184, 1);
+  --colorlibcomporcelain: rgba(236, 240, 241, 1);
+  --colorlibcomrock-blue: rgba(156, 194, 203, 1);
+  --colorlibcomshuttle-gray: rgba(94, 105, 116, 1);
+  --colorlibcomsilver: rgba(189, 189, 189, 1);
+  --colorlibcomwaikawa-gray: rgba(90, 115, 142, 1);
+  --colorlibcomwild-sand: rgba(247, 247, 247, 1);
+}
+
+.div-left-col {
+  background-color: rgba(42, 63, 84, 1);
+  height: 1824px;
+  position: relative;
+  width: 230px;
+}
+
+.div-left-col .div-profile {
+  align-items: flex-start;
+  display: inline-flex;
+  left: 0;
+  position: absolute;
+  top: 57px;
+}
+
+.div-left-col .div-profile-pic {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 12.1px 0px 12.06px;
+  position: relative;
+  width: 80.5px;
+}
+
+.div-left-col .img-jpg {
+  align-self: stretch;
+  background-image: url(./assets/images/img.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  border: 1px solid;
+  border-color: rgba(52, 73, 94, 0.44);;
+  border-radius: 28.17px;
+  height: 56.34px;
+  position: relative;
+  width: 100%;
+}
+
+.div-left-col .div-profile-info {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 25px 10px 10px;
+  position: relative;
+}
+
+.div-left-col .text-wrapper {
+  color: rgba(186, 184, 184, 1);
+  font-family: "Roboto", Helvetica;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.div-left-col .heading {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 70.5px 0px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.div-left-col .div {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 0;
+  color: rgba(236, 240, 241, 1);
+  display: -webkit-box;
+  font-family: "Roboto-Light", Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0px;
+  line-height: 16.799999237060547px;
+  margin-top: -1px;
+  overflow: hidden;
+  position: relative;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.div-left-col .div-navbar {
+  align-items: center;
+  background-color: rgba(42, 63, 84, 1);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0px 0px;
+  height: 57px;
+  justify-content: space-around;
+  left: 0;
+  padding: 1px 0px;
+  position: absolute;
+  top: 0;
+  width: 230px;
+}
+
+.div-left-col .link {
+  flex: 1;
+  flex-grow: 1;
+  height: 55px;
+  overflow: hidden;
+  position: relative;
+}
+
+.div-left-col .i-fa-paw {
+  height: 34px;
+  left: 10px;
+  position: absolute;
+  top: 12px;
+  width: 34px;
+}
+
+.div-left-col .text-wrapper-2 {
+  color: rgba(236, 240, 241, 1);;
+  font-family: "Roboto", Helvetica;
+  font-size: 22px;
+  font-weight: 400;
+  height: 59px;
+  left: 51px;
+  letter-spacing: 0;
+  line-height: 59px;
+  position: absolute;
+  top: -1px;
+  white-space: nowrap;
+}
+
+.div-left-col .div-sidebar-menu {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 35px;
+  left: 0;
+  position: absolute;
+  top: 158px;
+}
+
+.div-left-col .div-menu-section {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 9.98px;
+  position: relative;
+}
+
+.div-left-col .general-wrapper {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 155px 0px 23px;
+  position: relative;
+  width: 100%;
+}
+
+.div-left-col .text-wrapper-3 {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 0;
+  color: rgba(255, 255, 255, 1);
+  display: -webkit-box;
+  font-family: "Roboto-Bold", Helvetica;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-height: 13.199999809265137px;
+  margin-top: -1px;
+  overflow: hidden;
+  position: relative;
+  text-overflow: ellipsis;
+  text-shadow: 1px 1px 0px #000000;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.div-left-col .list {
+  height: 407.58px;
+  position: relative;
+  width: 230px;
+}
+
+.div-left-col .overlap-group {
+  height: 203px;
+  left: 0;
+  top: 0;
+  width: 230px;
+}
+
+.div-left-col .item {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 6px;
+  left: 0;
+  padding: 0px 5px 0px 0px;
+  top: 0;
+}
+
+.item-active{
+  border-color: rgba(26, 187, 156, 1);
+  border-right-style: solid;
+  border-right-width: 5px;
+}
+
+.div-left-col .link-2 {
+  height: 45.11px;
+  position: relative;
+  width: 225px;
+  cursor: pointer;
+}
+
+.link-2-active{
+  background: linear-gradient(180deg, rgb(51, 69, 86) 0%, rgb(44, 66, 87) 100%);
+  box-shadow: inset 0px 1px 0px #ffffff29, 0px 1px 0px #00000040;
+}
+
+.div-left-col .before {
+  height: 18px;
+  left: 15px;
+  position: absolute;
+  top: 13px;
+  width: 17px;
+}
+
+.div-left-col .home {
+  color: var(--colorlibcommercury);
+  font-family: var(--colorlib-com-roboto-medium-13-font-family);
+  font-size: var(--colorlib-com-roboto-medium-13-font-size);
+  font-style: var(--colorlib-com-roboto-medium-13-font-style);
+  font-weight: var(--colorlib-com-roboto-medium-13-font-weight);
+  height: 20px;
+  left: 41px;
+  letter-spacing: var(--colorlib-com-roboto-medium-13-letter-spacing);
+  line-height: var(--colorlib-com-roboto-medium-13-line-height);
+  position: absolute;
+  text-shadow: 0px -1px 0px #00000040;
+  top: 13px;
+  white-space: nowrap;
+}
+
+.div-left-col .span-fa-chevron-down {
+  height: 10px;
+  left: 180px;
+  object-fit: cover;
+  position: absolute;
+  top: 18px;
+  width: 26px;
+}
+
+.div-left-col .list-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.list-2.hide {
+  display: none;
+}
+
+.list-2.show {
+  display: block;
+  transition: display 1.5s ease; 
+}
+
+
+.div-left-col .item-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 0px 0px 36px;
+  position: relative;
+}
+
+.div-left-col .div-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 9px 121px 9px 9px;
+  position: relative;
+}
+
+.div-left-col .text-wrapper-4 {
+  color: var(--colorlibcomnero-75);
+  font-family: var(--colorlib-com-roboto-medium-12-font-family);
+  font-size: var(--colorlib-com-roboto-medium-12-font-size);
+  font-style: var(--colorlib-com-roboto-medium-12-font-style);
+  font-weight: var(--colorlib-com-roboto-medium-12-font-weight);
+  letter-spacing: var(--colorlib-com-roboto-medium-12-letter-spacing);
+  line-height: var(--colorlib-com-roboto-medium-12-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.div-left-col .after {
+  border-color: var(--colorlibcomfiord);
+  border-left-style: solid;
+  border-left-width: 1px;
+  height: 36px;
+  left: 27px;
+  position: absolute;
+  top: 0;
+  width: 1px;
+}
+
+.div-left-col .before-2 {
+  background-color: var(--colorlibcomfiord);
+  border-radius: 4px;
+  height: 8px;
+  left: 23px;
+  position: absolute;
+  top: 15px;
+  width: 8px;
+}
+
+.div-left-col .item-3 {
+  align-items: flex-start;
+  background-color: var(--colorlibcomnero-5);
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  margin-top: -0.4px;
+  padding: 0px 0px 0px 36px;
+  position: relative;
+}
+
+.div-left-col .link-3 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 9px 115px 9px 9px;
+  position: relative;
+}
+
+.div-left-col .text-wrapper-5 {
+  color: var(--colorlibcomnero);
+  font-family: var(--colorlib-com-roboto-medium-12-font-family);
+  font-size: var(--colorlib-com-roboto-medium-12-font-size);
+  font-style: var(--colorlib-com-roboto-medium-12-font-style);
+  font-weight: var(--colorlib-com-roboto-medium-12-font-weight);
+  letter-spacing: var(--colorlib-com-roboto-medium-12-letter-spacing);
+  line-height: var(--colorlib-com-roboto-medium-12-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.div-left-col .item-4 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  margin-top: -0.4px;
+  padding: 0px 0px 0px 36px;
+  position: relative;
+}
+
+.div-left-col .after-2 {
+  border-color: var(--colorlibcomfiord);
+  border-left-style: solid;
+  border-left-width: 1px;
+  height: 18px;
+  left: 27px;
+  position: absolute;
+  top: 0;
+  width: 1px;
+}
+
+.div-left-col .item-link {
+  height: 45px;
+  left: 0;
+  position: absolute;
+  top: 158px;
+  width: 230px;
+}
+
+.div-left-col .img {
+  height: 18px;
+  left: 15px;
+  position: absolute;
+  top: 13px;
+  width: 18px;
+}
+
+.div-left-col .text-wrapper-6 {
+  color: var(--colorlibcommercury);
+  font-family: var(--colorlib-com-roboto-medium-13-font-family);
+  font-size: var(--colorlib-com-roboto-medium-13-font-size);
+  font-style: var(--colorlib-com-roboto-medium-13-font-style);
+  font-weight: var(--colorlib-com-roboto-medium-13-font-weight);
+  height: 20px;
+  left: 41px;
+  letter-spacing: var(--colorlib-com-roboto-medium-13-letter-spacing);
+  line-height: var(--colorlib-com-roboto-medium-13-line-height);
+  position: absolute;
+  top: 13px;
+  white-space: nowrap;
+}
+
+.div-left-col .span-fa-chevron-down-2 {
+  height: 10px;
+  left: 185px;
+  object-fit: cover;
+  position: absolute;
+  top: 18px;
+  width: 26px;
+}
+
+.div-left-col .item-link-2 {
+  height: 45px;
+  left: 0;
+  position: absolute;
+  top: 209px;
+  width: 230px;
+}
+
+.div-left-col .before-3 {
+  height: 18px;
+  left: 15px;
+  position: absolute;
+  top: 13px;
+  width: 19px;
+}
+
+.div-left-col .item-link-3 {
+  height: 45px;
+  left: 0;
+  position: absolute;
+  top: 260px;
+  width: 230px;
+}
+
+.div-left-col .tables {
+  color: var(--colorlibcommercury);
+  font-family: var(--colorlib-com-roboto-medium-13-font-family);
+  font-size: var(--colorlib-com-roboto-medium-13-font-size);
+  font-style: var(--colorlib-com-roboto-medium-13-font-style);
+  font-weight: var(--colorlib-com-roboto-medium-13-font-weight);
+  height: 39px;
+  left: 41px;
+  letter-spacing: var(--colorlib-com-roboto-medium-13-letter-spacing);
+  line-height: var(--colorlib-com-roboto-medium-13-line-height);
+  position: absolute;
+  top: 4px;
+  width: 41px;
+}
+
+.div-left-col .item-link-4 {
+  height: 45px;
+  left: 0;
+  position: absolute;
+  top: 311px;
+  width: 230px;
+}
+
+.div-left-col .before-4 {
+  height: 18px;
+  left: 15px;
+  position: absolute;
+  top: 13px;
+  width: 21px;
+}
+
+.div-left-col .item-link-5 {
+  height: 45px;
+  left: 0;
+  position: absolute;
+  top: 362px;
+  width: 230px;
+}
+
+.div-left-col .text-wrapper-7 {
+  color: var(--colorlibcommercury);
+  font-family: var(--colorlib-com-roboto-medium-12-9-font-family);
+  font-size: var(--colorlib-com-roboto-medium-12-9-font-size);
+  font-style: var(--colorlib-com-roboto-medium-12-9-font-style);
+  font-weight: var(--colorlib-com-roboto-medium-12-9-font-weight);
+  height: 20px;
+  left: 41px;
+  letter-spacing: var(--colorlib-com-roboto-medium-12-9-letter-spacing);
+  line-height: var(--colorlib-com-roboto-medium-12-9-line-height);
+  position: absolute;
+  top: 13px;
+  white-space: nowrap;
+}
+
+.div-left-col .div-menu-section-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 9.99px;
+  position: relative;
+}
+
+.div-left-col .live-on-wrapper {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 163px 0px 23px;
+  position: relative;
+  width: 100%;
+}
+
+.div-left-col .list-3 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 6px;
+  position: relative;
+  width: 230px;
+}
+
+.div-left-col .item-link-6 {
+  align-self: stretch;
+  height: 45.11px;
+  position: relative;
+  width: 100%;
+}
+
+.div-left-col .additional-pages {
+  color: var(--colorlibcommercury);
+  font-family: var(--colorlib-com-roboto-medium-12-8-font-family);
+  font-size: var(--colorlib-com-roboto-medium-12-8-font-size);
+  font-style: var(--colorlib-com-roboto-medium-12-8-font-style);
+  font-weight: var(--colorlib-com-roboto-medium-12-8-font-weight);
+  height: 20px;
+  left: 41px;
+  letter-spacing: var(--colorlib-com-roboto-medium-12-8-letter-spacing);
+  line-height: var(--colorlib-com-roboto-medium-12-8-line-height);
+  position: absolute;
+  top: 13px;
+  white-space: nowrap;
+}
+
+.div-left-col .span-fa-chevron-down-3 {
+  height: 10px;
+  left: 189px;
+  object-fit: cover;
+  position: absolute;
+  top: 18px;
+  width: 26px;
+}
+
+.div-left-col .multilevel-menu {
+  color: var(--colorlibcommercury);
+  font-family: var(--colorlib-com-roboto-medium-12-7-font-family);
+  font-size: var(--colorlib-com-roboto-medium-12-7-font-size);
+  font-style: var(--colorlib-com-roboto-medium-12-7-font-style);
+  font-weight: var(--colorlib-com-roboto-medium-12-7-font-weight);
+  height: 20px;
+  left: 41px;
+  letter-spacing: var(--colorlib-com-roboto-medium-12-7-letter-spacing);
+  line-height: var(--colorlib-com-roboto-medium-12-7-line-height);
+  position: absolute;
+  top: 13px;
+  white-space: nowrap;
+}
+
+.div-left-col .span-label {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  left: 136px;
+  position: absolute;
+  top: 13px;
+}
+
+.div-left-col .text-wrapper-8 {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 0;
+  color: var(--colorlibcommercury);
+  display: -webkit-box;
+  font-family: var(--colorlib-com-roboto-medium-13-font-family);
+  font-size: var(--colorlib-com-roboto-medium-13-font-size);
+  font-style: var(--colorlib-com-roboto-medium-13-font-style);
+  font-weight: var(--colorlib-com-roboto-medium-13-font-weight);
+  letter-spacing: var(--colorlib-com-roboto-medium-13-letter-spacing);
+  line-height: var(--colorlib-com-roboto-medium-13-line-height);
+  margin-top: -1px;
+  overflow: hidden;
+  position: relative;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.div-left-col .div-sidebar-footer {
+  align-items: flex-start;
+  background-color: rgba(42, 63, 84, 1);
+  display: flex;
+  left: 0;
+  padding: 5px 0px 0px;
+  position: absolute;
+  top: 1780px;
+  width: 230px;
+}
+
+.div-left-col .link-4 {
+  object-fit: cover;
+  position: relative;
+  width: 57.5px;
+}
+
+.div-left-col .link-5 {
+  display: block;
+  object-fit: cover;
+  position: relative;
+  width: 57.5px;
+}
+
+/* SIMPLE SIDE BAR */
+
+.simple-sidebar{
+  background-color: rgba(42, 63, 84, 1);
+  height: 1824px;
+  position: relative;
+  width: 90px;
+}
+
+.div-navbar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div-navbar a img{
+  width: 50px;
+}
+
+.div-sidebar-menu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  justify-content: space-around;
+}
+
+.link-text{
+  font-size: 10px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.75);
+  width: 40px;
+}
+
+.list-2.show-list{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 100px; /* ajustez la position verticale en fonction de vos besoins */
+  left: 80px; /* ajustez la position horizontale en fonction de vos besoins */
+  background-color: rgba(42, 63, 84, 1); /* ajustez la couleur de fond en fonction de vos besoins */
+  padding: 10px; /* ajustez la marge intérieure en fonction de vos besoins */
+  z-index: 1; /* assurez-vous que la liste s'affiche au-dessus des autres éléments */
+  width: 200px;
+}
+
+.list-2.hide-list{
+  display: none;
+}
+
+.simple-sidebar .text-wrapper-4 {
+  color: var(--colorlibcomnero-75);
+  font-family: var(--colorlib-com-roboto-medium-12-font-family);
+  font-size: var(--colorlib-com-roboto-medium-12-font-size);
+  font-style: var(--colorlib-com-roboto-medium-12-font-style);
+  font-weight: var(--colorlib-com-roboto-medium-12-font-weight);
+  letter-spacing: var(--colorlib-com-roboto-medium-12-letter-spacing);
+  line-height: var(--colorlib-com-roboto-medium-12-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.link-2.link-active{
+  background: linear-gradient(180deg, rgb(51, 69, 86) 0%, rgb(44, 66, 87) 100%);
+  box-shadow: inset 0px 1px 0px #ffffff29, 0px 1px 0px #00000040;
+  width:min-content;
+}
